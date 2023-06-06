@@ -1,4 +1,4 @@
-package com.xuan.type;
+package com.xuan.type.string;
 
 /**
  * <p>String 的截取、替换和切割</p>

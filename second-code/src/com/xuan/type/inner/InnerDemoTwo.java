@@ -1,4 +1,4 @@
-package com.xuan.type;
+package com.xuan.type.inner;
 
 /**
  * <p> 匿名内部类 </p>

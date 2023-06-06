@@ -1,4 +1,4 @@
-package com.xuan.type;
+package com.xuan.type.string;
 
 import java.util.Locale;
 

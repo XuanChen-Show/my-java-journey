@@ -1,5 +1,7 @@
 package com.xuan.oop;
 
+import java.util.Objects;
+
 /**
  * <p>面向对象</p>
  *
@@ -30,5 +32,22 @@ public class Student {
 
     public void eat() {
         System.out.println("吃饭......");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Student student = (Student) o;
+        return age == student.age && Objects.equals(name, student.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 }
