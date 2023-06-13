@@ -42,6 +42,9 @@ public class JLableDemo {
         JLabel label_1png = new JLabel(new ImageIcon("F:\\IDEA\\Items\\JavaSE\\first-face\\second-code\\src\\com\\xuan\\frame\\img\\1.png"));
         label_1png.setBounds(33,150,115,115);
         frame.getContentPane().add(label_1png);
+        JLabel label_2png = new JLabel(new ImageIcon("second-code/src/com/xuan/frame/img/2.png"));
+        label_2png.setBounds(33,300,115,115);
+        frame.getContentPane().add(label_2png);
 
         // 设置窗体可见    最好放在最后面
         frame.setVisible(true);
