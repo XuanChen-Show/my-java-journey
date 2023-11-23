@@ -22,13 +22,19 @@ public class AbstractDemo {
      *              - 可以让子类继承到，并继续使用
      *          4、抽象类的子类
      *              a、要么重写抽象类中的所有抽象方法
-     *              b、要么也是抽象类
+     *              b、要么也是 抽象类
      */
     public static void main(String[] args) {
         //
     }
 }
 abstract class Animal {
+    /**
+     * 进食习性
+     *
+     * @param
+     * @return
+     */
     public abstract void eat();
 }
 
